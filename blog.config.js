@@ -278,7 +278,7 @@ const BLOG = {
   TianliGPT_JS:
     process.env.NEXT_PUBLIC_TIANLI_GPT_JS ||
     // 'https://cdn.jsdelivr.net/gh/PastKing/picx-images-hosting@master/20241007/PastKingGPT.js',
-    'https://cdn.jsdelivr.net/gh/PastKing/picx-images-hosting@master/files/Abstract.js',
+    'https://cdn.jsdmirror.cn/gh/PastKing/picx-images-hosting@master/files/abstract.js',
   TianliGPT_KEY: process.env.NEXT_PUBLIC_TIANLI_GPT_KEY || '5Q5mpqRK5DkwT1X9Gi5e',
 
   // Chatbase 是否显示chatbase机器人 https://www.chatbase.co/
