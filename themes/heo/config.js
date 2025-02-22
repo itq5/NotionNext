@@ -17,11 +17,11 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享AI',
+  HEO_HERO_TITLE_1: '分享AI技术',
   HEO_HERO_TITLE_2: '与思维认知',
   HEO_HERO_TITLE_3: 'ITQ5.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: '公益项目 - Docker/NPM离线包在线下载',
+  HEO_HERO_TITLE_4: '公益项目',
+  HEO_HERO_TITLE_5: 'Docker/NPM离线包在线下载',
   HEO_HERO_TITLE_LINK: 'https://pull.7ii.win/', 
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
