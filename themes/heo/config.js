@@ -17,19 +17,19 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
+  HEO_HERO_TITLE_1: '分享AI',
   HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'OAIChat.RU',
+  HEO_HERO_TITLE_3: 'ITQ5.COM',
   HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: '公益项目 - 人工智能助手',
-  HEO_HERO_TITLE_LINK: 'https://ai.ltde.cn/', 
+  HEO_HERO_TITLE_5: '公益项目 - Docker/NPM离线包在线下载',
+  HEO_HERO_TITLE_LINK: 'https://pull.7ii.win/', 
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/推荐' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/逆向开发' },
-  HEO_HERO_CATEGORY_3: { title: '开源项目', url: '/category/开源项目' },
+  HEO_HERO_CATEGORY_1: { title: 'AI技术', url: '/category/AI技术' },
+  HEO_HERO_CATEGORY_2: { title: '云原生', url: '/category/云原生' },
+  HEO_HERO_CATEGORY_3: { title: 'Linux技术', url: '/category/Linux技术' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
@@ -50,9 +50,9 @@ const CONFIG = {
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://github.com/PastKing',
+  HEO_INFO_CARD_URL2: 'https://github.com/itq5',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://www.oaichat.ru',
+  HEO_INFO_CARD_URL3: 'https://itq5.com',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
@@ -119,7 +119,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://t.me/pastking_server',
+  HEO_SOCIAL_CARD_URL: 'https://itq5.com',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
