@@ -277,8 +277,9 @@ const BLOG = {
     'https://ai.tianli0.top/static/public/tianli_gpt.min.css',
   TianliGPT_JS:
     process.env.NEXT_PUBLIC_TIANLI_GPT_JS ||
+    'https://jsd.cdn.zzko.cn/gh/itq5/Post-Abstract-AI-NotionNext@master/pastking_gpt.js',
     // 'https://cdn.jsdelivr.net/gh/PastKing/picx-images-hosting@master/20241007/PastKingGPT.js',
-    'https://ai.tianli0.top/static/public/tianli_gpt.min.js',
+    // 'https://ai.tianli0.top/static/public/tianli_gpt.min.js',
   TianliGPT_KEY: process.env.NEXT_PUBLIC_TIANLI_GPT_KEY || '5Q5mpqRK5DkwT1X9Gi5e',
 
   // Chatbase 是否显示chatbase机器人 https://www.chatbase.co/
@@ -344,8 +345,7 @@ const BLOG = {
   COMMENT_ARTALK_SERVER: process.env.NEXT_PUBLIC_COMMENT_ARTALK_SERVER || '', // ArtalkServert后端地址 https://artalk.js.org/guide/deploy.html
   COMMENT_ARTALK_JS:
     process.env.NEXT_PUBLIC_COMMENT_ARTALK_JS ||
-    'https://jsd.cdn.zzko.cn/gh/itq5/Post-Abstract-AI-NotionNext@master/pastking_gpt.js',
-//    'https://cdnjs.cloudflare.com/ajax/libs/artalk/2.5.5/Artalk.js', // ArtalkServert js cdn
+    'https://cdnjs.cloudflare.com/ajax/libs/artalk/2.5.5/Artalk.js', // ArtalkServert js cdn
   COMMENT_ARTALK_CSS:
     process.env.NEXT_PUBLIC_COMMENT_ARTALK_CSS ||
     'https://cdnjs.cloudflare.com/ajax/libs/artalk/2.5.5/Artalk.css', // ArtalkServert css cdn
