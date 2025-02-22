@@ -278,8 +278,8 @@ const BLOG = {
   TianliGPT_JS:
     process.env.NEXT_PUBLIC_TIANLI_GPT_JS ||
     // 'https://cdn.jsdelivr.net/gh/PastKing/picx-images-hosting@master/20241007/PastKingGPT.js',
-    'https://raw.githubusercontent.com/itq5/Post-Abstract-AI-NotionNext/refs/heads/main/pastking_gpt.js',
-  TianliGPT_KEY: process.env.NEXT_PUBLIC_TIANLI_GPT_KEY || '5Q5mpqRK5DkwT1X9Gi5e',
+    'https://cdn.jsdelivr.net/gh/itq5/Post-Abstract-AI-NotionNext@master/pastking_gpt.js',
+  TianliGPT_KEY: process.env.NEXT_PUBLIC_TIANLI_GPT_KEY || '1213249990',
 
   // Chatbase 是否显示chatbase机器人 https://www.chatbase.co/
   CHATBASE_ID: process.env.NEXT_PUBLIC_CHATBASE_ID || null,
