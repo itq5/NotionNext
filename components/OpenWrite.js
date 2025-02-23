@@ -33,7 +33,8 @@ const OpenWrite = () => {
   const loadOpenWrite = async () => {
     try {
       await loadExternalResource(
-        'https://readmore.openwrite.cn/js/readmore-2.0.js',
+        //'https://readmore.openwrite.cn/js/readmore-2.0.js',
+        'https://cdn.jsdelivr.net/gh/itq5/Post-Abstract-AI-NotionNext@master/readmore-2.0.js',
         'js'
       )
       const BTWPlugin = window?.BTWPlugin
