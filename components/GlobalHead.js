@@ -20,7 +20,7 @@ const GlobalHead = props => {
   const meta = getSEOMeta(props, router, useGlobal()?.locale)
   if (meta) {
     url = `${url}/${meta.slug}`
-    image = meta.image || 'https://api.likepoems.com/img/mc'
+    image = meta.image || '/bg_image.jpg'
   }
   const title = meta?.title || siteConfig('TITLE')
   const description = meta?.description || `${siteInfo?.description}`
