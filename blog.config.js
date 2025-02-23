@@ -279,9 +279,9 @@ const BLOG = {
     //'https://ai.tianli0.top/static/public/tianli_gpt.min.css',
   TianliGPT_JS:
     process.env.NEXT_PUBLIC_TIANLI_GPT_JS ||
-    'https://cdn.jsdelivr.net/gh/PastKing/picx-images-hosting@master/files/qweasd.js',
+    // 'https://cdn.jsdelivr.net/gh/PastKing/picx-images-hosting@master/files/qweasd.js',
     // 'https://cdn.jsdelivr.net/gh/PastKing/picx-images-hosting@master/20241007/PastKingGPT.js',
-    //'https://cdn.jsdelivr.net/gh/itq5/Post-Abstract-AI-NotionNext@master/pastking_gpt.js',
+    'https://cdn.jsdelivr.net/gh/itq5/Post-Abstract-AI-NotionNext@master/pastking_gpt.js',
     // 'https://ai.tianli0.top/static/public/tianli_gpt.min.js',
   TianliGPT_KEY: process.env.NEXT_PUBLIC_TIANLI_GPT_KEY || '1213249990',
 
