@@ -27,8 +27,8 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'PastKing', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.oaichat.ru', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '昔尘科技, 昔尘, 昔尘源分享, 公益', // 网站关键词 英文逗号隔开
+  LINK: process.env.NEXT_PUBLIC_LINK || '', // 网站地址
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址 例如mail@tangly1024.com
@@ -275,14 +275,14 @@ const BLOG = {
   TianliGPT_CSS:
     process.env.NEXT_PUBLIC_TIANLI_GPT_CSS ||
     'https://jsd.onmicrosoft.cn/gh/zhheo/Post-Abstract-AI@0.15.2/tianli_gpt.css',
-    //'https://jsd.onmicrosoft.cn/gh/zhheo/Post-Abstract-AI@0.15.2/tianli_gpt.css',
-    //'https://ai.tianli0.top/static/public/tianli_gpt.min.css',
+    //'https://jsd.onmicrosoft.cn/gh/zhheo/Post-Abstract-AI@0.15.2/tianli_gpt.css',  //自建
+    //'https://ai.tianli0.top/static/public/tianli_gpt.min.css', //TianliGPT官方
   TianliGPT_JS:
     process.env.NEXT_PUBLIC_TIANLI_GPT_JS ||
-    'https://cdn.jsdelivr.net/gh/PastKing/picx-images-hosting@master/files/qweasd.js',
-    //'https://cdn.jsdelivr.net/gh/itq5/Post-Abstract-AI-NotionNext@master/pastking_gpt.js',
-    //'https://ai.tianli0.top/static/public/tianli_gpt.min.js',
-  TianliGPT_KEY: process.env.NEXT_PUBLIC_TIANLI_GPT_KEY || '1213249990',
+    //'https://cdn.jsdelivr.net/gh/PastKing/picx-images-hosting@master/files/qweasd.js', //自建
+    'https://cdn.jsdelivr.net/gh/itq5/Post-Abstract-AI-NotionNext@master/pastking_gpt.js',
+    //'https://ai.tianli0.top/static/public/tianli_gpt.min.js', //TianliGPT官方
+  TianliGPT_KEY: process.env.NEXT_PUBLIC_TIANLI_GPT_KEY || '',
 
   // Chatbase 是否显示chatbase机器人 https://www.chatbase.co/
   CHATBASE_ID: process.env.NEXT_PUBLIC_CHATBASE_ID || null,
